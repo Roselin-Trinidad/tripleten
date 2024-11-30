@@ -1,0 +1,26 @@
+{
+  "name": "tripleten",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack serve --mode development"
+  },
+  "keywords": [],
+  "author": "Roselin Trinidad",
+  "license": "ISC",
+  "description": "Educational Platform",
+  "dependencies": {
+    "core-js": "3.23.5",
+    "jquery": "^3.7.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.18.9",
+    "@babel/preset-env": "^7.26.0",
+    "babel-loader": "8.2.5",
+    "html-webpack-plugin": "5.5.0",
+    "webpack": "^5.96.1",
+    "webpack-cli": "4.10.0",
+    "webpack-dev-server": "4.9.3"
+  }
+}
